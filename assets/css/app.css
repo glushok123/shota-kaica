@@ -1,0 +1,48 @@
+.hidden{
+    display: none;
+}
+.button-load-doc{
+    max-width: 90px;
+}
+.button-load-group{
+    max-width: 150px;
+}
+.button-load-fond{
+    max-width: 100px;
+}
+.active-button-group{
+    background: red;
+    color: white;
+}
+.active-button-fond{
+    background: red;
+    color: white;
+}
+.active-button-case{
+    background: red;
+    color: white;
+}
+#img-show{
+    max-height: 90vh;
+    max-width: 100%;
+}
+.button-img-left, .button-img-right{
+    cursor: pointer;
+
+}
+.button-img-left:hover path, .button-img-right:hover path{
+    fill: #6610f2;
+    background: #6610f2;
+}
+.name-file-active{
+    color:red;
+}
+.name-file-col{
+    font-size: 20px;
+}
+.show-img{
+    height: 90vh;
+}
+.z-index-100{
+    z-index: 100 !important;
+}
